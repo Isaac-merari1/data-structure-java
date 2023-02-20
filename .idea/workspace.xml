@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/circular/CircularLinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/circular/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/merari/doubly/DoublyLinkedListImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/merari/doubly/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/merari/doubly/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singly/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singly/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singly/MiddleLinkedListChallenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singly/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/singly/SinglyLinkedListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/circular/CircularLinkedListImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/merari/doubly/DoublyLinkedListImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/singly/SinglyLinkedListImplTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LvXBKthcVf5P6rrYLvwJ7R7KCo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="singly" />
+      <recent name="circular" />
+      <recent name="org.merari.doubly" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CircularLinkedListImplTest.test_empty_list">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.merari.doubly.Main" />
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.merari.doubly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="singly.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singly.Main" />
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="singly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularLinkedListImplTest.test_empty_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="circular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="circular" />
+      <option name="MAIN_CLASS_NAME" value="circular.CircularLinkedListImplTest" />
+      <option name="METHOD_NAME" value="test_empty_list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DoublyLinkedListImpTest.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.merari.doubly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.merari.doubly" />
+      <option name="MAIN_CLASS_NAME" value="org.merari.doubly.DoublyLinkedListImpTest" />
+      <option name="METHOD_NAME" value="reverse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CircularLinkedListImplTest.test_empty_list" />
+        <item itemvalue="Application.singly.Main" />
+        <item itemvalue="JUnit.DoublyLinkedListImpTest.reverse" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="" />
+      <created>1676752395811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676752395811</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
