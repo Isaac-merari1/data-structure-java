@@ -1,4 +1,4 @@
-package org.merari.doubly;
+package LinkedList.circular.doubly;
 
 
 import java.util.ArrayList;

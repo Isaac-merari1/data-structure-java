@@ -1,4 +1,4 @@
-package singly;
+package LinkedList.circular.singly;
 
 import java.util.ArrayList;
 import java.util.List;

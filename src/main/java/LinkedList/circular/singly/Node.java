@@ -1,4 +1,4 @@
-package singly;
+package LinkedList.circular.singly;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

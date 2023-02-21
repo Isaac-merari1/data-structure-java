@@ -1,6 +1,4 @@
-package singly;
-
-import org.w3c.dom.NodeList;
+package LinkedList.circular.singly;
 
 /**
  * Definition for singly-linked list.

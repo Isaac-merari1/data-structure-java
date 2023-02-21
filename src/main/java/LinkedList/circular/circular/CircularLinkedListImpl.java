@@ -1,4 +1,4 @@
-package circular;
+package LinkedList.circular.circular;
 
 public class CircularLinkedListImpl {
     private Node head;
@@ -60,7 +60,7 @@ public class CircularLinkedListImpl {
         size += 1;
     }
 
-    private boolean indexInRange(int index) {
+    public boolean indexInRange(int index) {
         return index >= 0 && index <= getSize();
     }
 

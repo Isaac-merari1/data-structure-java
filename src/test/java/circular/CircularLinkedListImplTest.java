@@ -1,5 +1,6 @@
 package circular;
 
+import LinkedList.circular.circular.CircularLinkedListImpl;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -20,7 +21,7 @@ class CircularLinkedListImplTest {
 
     @Test
     @DisplayName("addFirst(value): should add value at the beginning of the list")
-    void test_addFirst() {
+    void testAddFirst() {
         CircularLinkedListImpl circularSinglyLinkedList = new CircularLinkedListImpl();
         circularSinglyLinkedList.addFirst("mango");
         circularSinglyLinkedList.addFirst("guava");
@@ -34,7 +35,7 @@ class CircularLinkedListImplTest {
 
     @Test
     @DisplayName("addLast(value): should add value at the end of the list")
-    void test_addLast() {
+    void testAddLast() {
         CircularLinkedListImpl circularSinglyLinkedList = new CircularLinkedListImpl();
         circularSinglyLinkedList.addLast("mango");
         circularSinglyLinkedList.addLast("guava");
@@ -48,7 +49,7 @@ class CircularLinkedListImplTest {
 
     @Test
     @DisplayName("add(value, index): should add value at specified index")
-    void test_add() {
+    void testAdd() {
         CircularLinkedListImpl circularSinglyLinkedList = new CircularLinkedListImpl();
         circularSinglyLinkedList.add("mango", 0);
         circularSinglyLinkedList.add("guava", 0);
@@ -59,4 +60,33 @@ class CircularLinkedListImplTest {
         assertThat(result).isEqualTo("guava -> watermelon -> mango -> guava");
         assertThat(circularSinglyLinkedList.getSize()).isEqualTo(3);
     }
+
+    @Test
+    @DisplayName("Test the range of index")
+    void testIndexInRange(){
+        CircularLinkedListImpl circularSinglyLinkedList = new CircularLinkedListImpl();
+        int index = 2;
+        circularSinglyLinkedList.add("mango", 0);
+        circularSinglyLinkedList.add("guava", 0);
+        boolean results = circularSinglyLinkedList.indexInRange(index);
+
+        assertTrue(results);
+    }
+
+    @Test
+    @DisplayName("Test invalid range of index")
+    void testNotIndexInRange(){
+        CircularLinkedListImpl circularSinglyLinkedList = new CircularLinkedListImpl();
+        circularSinglyLinkedList.add("mango", 0);
+        circularSinglyLinkedList.add("guava", 0);
+        circularSinglyLinkedList.add("watermelon", 1);
+
+        boolean results = circularSinglyLinkedList.indexInRange(-5);
+        boolean result2 = circularSinglyLinkedList.indexInRange(5);
+
+        assertThat(results).isEqualTo(false);
+        assertThat(result2).isEqualTo(false);
+    }
+
+
 }

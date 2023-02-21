@@ -1,6 +1,5 @@
-package org.merari.doubly;
+package LinkedList.circular.doubly;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

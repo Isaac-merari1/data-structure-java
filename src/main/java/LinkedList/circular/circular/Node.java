@@ -1,4 +1,4 @@
-package circular;
+package LinkedList.circular.circular;
 
 import lombok.Getter;
 import lombok.Setter;
