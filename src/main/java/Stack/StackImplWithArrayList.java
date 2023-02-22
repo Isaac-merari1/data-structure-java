@@ -38,32 +38,15 @@ public class StackImplWithArrayList {
     }
 
     public String minElement(){
-
-        String result = data.get(0).toUpperCase();
-        for(String str: data){
-            char[] chars = str.toUpperCase().toCharArray();
-//            str.compareTo(result);
-            for(int i=0; i<chars.length; i++){
-                if(chars[i] == result.charAt(i)){
-                    continue;
-                }
-                if (result.charAt(i) > chars[i]) {
-                    result = str;
-                    break;
-                }
-                break;
-            }
-        }
-        return result;
+         return  data.stream()
+//                 .min((a,b) -> a.compareTo(b))
+                 .min(String::compareTo)
+                 .orElse("");
     }
-
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
         builder.append("StackImplWithArrayList[");
-//        for(String ele: data){
-//            builder.append(ele);
-//        }
         for(int i =0; i<data.size(); i++){
             builder.append(data.get(i));
             if(i != data.size() -1){

@@ -5,23 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack/StackImplWithArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stack/StackImplWithArrayListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueWithArrayListImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueWithLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stack/StackWithLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Queue/QueueWithArrayListImpTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Queue/QueueWithLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Stack/StackWithLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/circular/CircularLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/circular/CircularLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/circular/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/circular/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/merari/doubly/DoublyLinkedListImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/DoublyLinkedListImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/merari/doubly/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/merari/doubly/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singly/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/singly/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/singly/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singly/MiddleLinkedListChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/singly/MiddleLinkedListChallenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singly/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/singly/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/singly/SinglyLinkedListImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/singly/SinglyLinkedListImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/circular/CircularLinkedListImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/circular/CircularLinkedListImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/merari/doubly/DoublyLinkedListImpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/merari/doubly/DoublyLinkedListImpTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stack/StackImplWithArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack/StackImplWithArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Stack/StackImplWithArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stack/StackImplWithArrayListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,24 +61,73 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Queue" />
       <recent name="Stack" />
       <recent name="singly" />
       <recent name="circular" />
       <recent name="org.merari.doubly" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StackImplWithArrayListTest.testMinElement">
-    <configuration name="StackImplWithArrayListTest.testIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.QueueWithLinkedListTest.testException">
+    <configuration name="QueueWithLinkedListTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack.*" />
+          <option name="PATTERN" value="Queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplWithArrayListTest" />
-      <option name="METHOD_NAME" value="testIsEmpty" />
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
+      <option name="METHOD_NAME" value="dequeue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueWithLinkedListTest.enqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
+      <option name="METHOD_NAME" value="enqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueWithLinkedListTest.peek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
+      <option name="METHOD_NAME" value="peek" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueWithLinkedListTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Queue" />
+      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
+      <option name="METHOD_NAME" value="testException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,61 +149,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackImplWithArrayListTest.testPeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplWithArrayListTest" />
-      <option name="METHOD_NAME" value="testPeek" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackImplWithArrayListTest.testPush" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplWithArrayListTest" />
-      <option name="METHOD_NAME" value="testPush" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackImplWithArrayListTest.tettPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplWithArrayListTest" />
-      <option name="METHOD_NAME" value="tettPop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueWithLinkedListTest.testException" />
+        <item itemvalue="JUnit.QueueWithLinkedListTest.dequeue" />
+        <item itemvalue="JUnit.QueueWithLinkedListTest.peek" />
+        <item itemvalue="JUnit.QueueWithLinkedListTest.enqueue" />
         <item itemvalue="JUnit.StackImplWithArrayListTest.testMinElement" />
-        <item itemvalue="JUnit.StackImplWithArrayListTest.testPush" />
-        <item itemvalue="JUnit.StackImplWithArrayListTest.testIsEmpty" />
-        <item itemvalue="JUnit.StackImplWithArrayListTest.testPeek" />
-        <item itemvalue="JUnit.StackImplWithArrayListTest.tettPop" />
       </list>
     </recent_temporary>
   </component>

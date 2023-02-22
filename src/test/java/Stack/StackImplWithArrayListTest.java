@@ -61,14 +61,14 @@ class StackImplWithArrayListTest {
     @Test
     void testMinElement() {
         StackImplWithArrayList stackImplWithArrayList = new StackImplWithArrayList();
-//        stackImplWithArrayList.push("guava");
-//        stackImplWithArrayList.push("apple");
-//        stackImplWithArrayList.push("mango");
+        stackImplWithArrayList.push("guava");
+        stackImplWithArrayList.push("apple");
+        stackImplWithArrayList.push("mango");
         stackImplWithArrayList.push("race");
-        stackImplWithArrayList.push("RICE");
+        stackImplWithArrayList.push("rice");
 
         String result = stackImplWithArrayList.minElement();
 
-        assertThat(result).isEqualTo("race".toUpperCase());
+        assertThat(result).isEqualTo("apple");
     }
 }
