@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueWithArrayListImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Queue/QueueWithLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stack/StackWithLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Queue/QueueWithArrayListImpTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Queue/QueueWithLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Stack/StackWithLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stack/StackImplWithArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack/StackImplWithArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Stack/StackImplWithArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Stack/StackImplWithArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/DoublyLinkedListImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/DoublyLinkedListImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,20 @@
       <recent name="org.merari.doubly" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QueueWithLinkedListTest.testException">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stack.Main" />
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueWithLinkedListTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
@@ -133,29 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackImplWithArrayListTest.testMinElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Stack" />
-      <option name="MAIN_CLASS_NAME" value="Stack.StackImplWithArrayListTest" />
-      <option name="METHOD_NAME" value="testMinElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.QueueWithLinkedListTest.testException" />
         <item itemvalue="JUnit.QueueWithLinkedListTest.dequeue" />
         <item itemvalue="JUnit.QueueWithLinkedListTest.peek" />
         <item itemvalue="JUnit.QueueWithLinkedListTest.enqueue" />
-        <item itemvalue="JUnit.StackImplWithArrayListTest.testMinElement" />
       </list>
     </recent_temporary>
   </component>
