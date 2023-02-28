@@ -8,7 +8,6 @@ import java.util.function.*;
 
 public class Main {
     public static void main(String[] args){
-
         String str = "()()(((())))" ;// "()()((((()))))"; // (())((()))(())((((()))))
         int depth =1;
         int maxDepth = 0;
