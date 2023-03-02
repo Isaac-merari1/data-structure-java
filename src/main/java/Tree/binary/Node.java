@@ -37,10 +37,6 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Node{" +
-                "data='" + getData() + '\'' +
-                ", left=" + getLeft() +
-                ", right=" + getRight() +
-                '}';
+        return String.format("[%s l=%s r=%s]", data, left, right);
     }
 }

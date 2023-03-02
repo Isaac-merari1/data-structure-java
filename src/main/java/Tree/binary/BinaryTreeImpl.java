@@ -9,8 +9,14 @@ package Tree.binary;
 import java.util.Scanner;
 
 public class BinaryTreeImpl {
-   private Node Root;
-   private final Scanner scanner = new Scanner(System.in);
+    private final Scanner scanner;
+//   private Node Root;
+
+
+    public BinaryTreeImpl(Scanner scanner) {
+        this.scanner = scanner;
+//        Node root = new Node(value);
+    }
    public Node create (){
        /**
         *            2
@@ -35,13 +41,6 @@ public class BinaryTreeImpl {
            root.setRight(create());
        }
        return root;
-   }
-
-    /**
-     * Inorder Traversal Recursion
-     */
-   public void inOrderRecursion(){
-
    }
 
 }

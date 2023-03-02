@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Traversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,10 @@
         <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/java.base/java/util/TreeSet.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/openjdk-19.0.2/lib/src.zip!/jdk.compiler/com/sun/source/tree/Tree.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,66 +70,8 @@
       <recent name="circular" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TraversalTest.preOrderRecursion">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack.Main" />
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tree.binary.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.Main" />
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueWithLinkedListTest.dequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Queue" />
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
-      <option name="METHOD_NAME" value="dequeue" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueWithLinkedListTest.testException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Queue" />
-      <option name="MAIN_CLASS_NAME" value="Queue.QueueWithLinkedListTest" />
-      <option name="METHOD_NAME" value="testException" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraversalTest.preOrderRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TraversalTest.testPostOrderIteration">
+    <configuration name="TraversalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -132,7 +81,70 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
       <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="preOrderRecursion" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraversalTest.testInOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tree.binary" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
+      <option name="METHOD_NAME" value="testInOrderIteration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraversalTest.testPostOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tree.binary" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
+      <option name="METHOD_NAME" value="testPostOrderIteration" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraversalTest.testPostOrderRecursion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tree.binary" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
+      <option name="METHOD_NAME" value="testPostOrderRecursion" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraversalTest.testPreOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tree.binary" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
+      <option name="METHOD_NAME" value="testPreOrderIteration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TraversalTest.preOrderRecursion" />
-        <item itemvalue="Application.Tree.binary.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.QueueWithLinkedListTest.testException" />
-        <item itemvalue="JUnit.QueueWithLinkedListTest.dequeue" />
+        <item itemvalue="JUnit.TraversalTest.testPostOrderIteration" />
+        <item itemvalue="JUnit.TraversalTest.testInOrderIteration" />
+        <item itemvalue="JUnit.TraversalTest.testPreOrderIteration" />
+        <item itemvalue="JUnit.TraversalTest" />
+        <item itemvalue="JUnit.TraversalTest.testPostOrderRecursion" />
       </list>
     </recent_temporary>
   </component>
@@ -175,5 +187,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DataStructure_in_Java$TraversalTest.ic" NAME="TraversalTest Coverage Results" MODIFIED="1677743294666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tree.binary.*</FILTER>
+    </SUITE>
   </component>
 </project>
