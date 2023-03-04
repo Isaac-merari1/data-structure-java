@@ -66,13 +66,13 @@ private Node root;
         assertThat(result.toString()).isEqualTo("[4, 6, 2]");
     }
 
-//    @Test
-//    void levelOrderRecursion() {
-//        List<Integer> result = new ArrayList<>();
-//        Traversal.levelOrderRecursion(result, root);
-//
-//        assertThat(result.isEmpty()).isFalse();
-//        assertThat(result.toString()).isEqualTo("[ 2, 4, 6]");
-//    }
+    @Test
+    void testLevelOrderIteration() {
+        List<String> result = new ArrayList<>();
+        Traversal.levelOrderIteration(result, root);
+
+        assertThat(result.isEmpty()).isFalse();
+        assertThat(result.toString()).isEqualTo("[2, 4, 6]");
+    }
 
 }

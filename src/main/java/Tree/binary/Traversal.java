@@ -1,5 +1,7 @@
 package Tree.binary;
 
+import java.util.ArrayDeque;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
 
@@ -43,15 +45,7 @@ public class Traversal {
          * level Order Recursion Uses Iteration
          */
     }
-    public static void levelOrderRecursion(List<Integer> result, Node root){
-        if(root == null){
-            return;
-        }
-        System.out.println(root.getLeft());
-        levelOrderRecursion(result, root.getLeft());
-        levelOrderRecursion(result, root.getRight());
 
-    }
 
     /**
      * Using iteration for preorder, postorder and inorder
@@ -117,5 +111,36 @@ public class Traversal {
         }
 
     }
+
+    /**
+     *  LEVEL ORDER ITERATION
+     *                  2
+     *                 / \
+     *               4     6
+     *              / \     \
+     *             5   3     1
+     *
+     *             2, 4, 6, 5, 3, 1
+     *
+     *
+     */
+    public static void levelOrderIteration(List<String> result, Node root){
+//        ArrayDeque<Node> queue = new ArrayDeque<>();
+        LinkedList<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while(!queue.isEmpty()){
+            Node node = queue.removeFirst();
+            result.add(node.getData());
+            if(node.getLeft() != null){
+                queue.addLast(node.getLeft());
+            }
+            if(node.getRight() != null){
+                queue.addLast(node.getRight());
+            }
+        }
+    }
+
+
 
 }
