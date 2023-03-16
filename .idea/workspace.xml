@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchWithArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/BunnyEars2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/FactorialH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/recursionExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Traversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Traversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -50,6 +58,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Documents/Coding Works/Advance_java_dev&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -67,7 +76,20 @@
       <recent name="circular" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.BinarySearchWithArray">
+    <configuration name="BinarySearchWithArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.BinarySearchWithArray" />
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.binary.Main" />
       <module name="DataStructure_in_Java" />
@@ -81,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalTest.testInOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeImplTest.deleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -90,14 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="testInOrderIteration" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.BinaryTreeImplTest" />
+      <option name="METHOD_NAME" value="deleteNode" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalTest.testLevelOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeImplTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -106,14 +128,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="testLevelOrderIteration" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.BinaryTreeImplTest" />
+      <option name="METHOD_NAME" value="testCreate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalTest.testPostOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TraversalTest.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -123,23 +145,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
       <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="testPostOrderIteration" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraversalTest.testPreOrderIteration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tree.binary" />
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="testPreOrderIteration" />
+      <option name="METHOD_NAME" value="testBinarySearch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchWithArray" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TraversalTest.testLevelOrderIteration" />
-        <item itemvalue="JUnit.TraversalTest.testPostOrderIteration" />
-        <item itemvalue="JUnit.TraversalTest.testInOrderIteration" />
-        <item itemvalue="JUnit.TraversalTest.testPreOrderIteration" />
+        <item itemvalue="JUnit.BinaryTreeImplTest.deleteNode" />
+        <item itemvalue="JUnit.BinaryTreeImplTest.testCreate" />
+        <item itemvalue="JUnit.TraversalTest.testBinarySearch" />
       </list>
     </recent_temporary>
   </component>

@@ -14,13 +14,14 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TraversalTest {
 private Node root;
+private binaryNode binaryRoot;
     @BeforeEach
     void setUp(){
         StringReader stringReader = new StringReader("2 y 4 n n y 6 n n");
         Scanner scanner = new Scanner(stringReader);
         BinaryTreeImpl tree = new BinaryTreeImpl(scanner);
 
-        root = tree.create();
+        binaryRoot = tree.create();
     }
     @Test
     void testPreOrderRecursion() {
@@ -73,6 +74,34 @@ private Node root;
 
         assertThat(result.isEmpty()).isFalse();
         assertThat(result.toString()).isEqualTo("[2, 4, 6]");
+    }
+
+    @Test
+    void testAdd(){
+        /**
+         *               5
+         *             /   \
+         *           3       8
+         *          /       /
+         *                 6
+         */
+        BinarySearchTreeImpl binarySearchTree = new BinarySearchTreeImpl();
+        binarySearchTree.insert(5);
+        binarySearchTree.insert(3);
+        binarySearchTree.insert(8);
+        binarySearchTree.insert(6);
+
+        searchNode root = binarySearchTree.getRoot();
+        assertThat(root.toString()).isEqualTo("[5 l=[3 l=null r=null] r=[8 l=[6 l=null r=null] r=null]]");
+    }
+
+    @Test
+    void testBinarySearch(){
+        BinarySearchTreeImpl binarySearchTree = new BinarySearchTreeImpl();
+
+        int result =  binarySearchTree.binarySearch(10);
+
+        assertThat(result).isEqualTo(-1);
     }
 
 }
