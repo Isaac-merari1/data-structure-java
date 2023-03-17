@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchWithArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/BunnyEars2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/FactorialH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/recursionExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/NestParen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/NestParenTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/recursionExamplesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinaryTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" afterDir="false" />
     </list>
@@ -26,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -69,20 +65,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="recursion" />
       <recent name="Tree.binary" />
       <recent name="Queue" />
       <recent name="Stack" />
       <recent name="singly" />
-      <recent name="circular" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearchWithArray">
-    <configuration name="BinarySearchWithArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.BinarySearchWithArray" />
+  <component name="RunManager" selected="JUnit.NestParenTest.nestParen">
+    <configuration name="LinkedList.circular.doubly.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.circular.doubly.Main" />
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tree.binary.*" />
+          <option name="PATTERN" value="LinkedList.circular.doubly.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,20 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.Main" />
-      <module name="DataStructure_in_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tree.binary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryTreeImplTest.deleteNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeImplTest.testBinarySearhWhenValueDoesNotExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +96,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
       <option name="MAIN_CLASS_NAME" value="Tree.binary.BinaryTreeImplTest" />
-      <option name="METHOD_NAME" value="deleteNode" />
+      <option name="METHOD_NAME" value="testBinarySearhWhenValueDoesNotExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinaryTreeImplTest.testCreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeImplTest.testBinarySearhWhenValueExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -129,13 +112,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
       <option name="MAIN_CLASS_NAME" value="Tree.binary.BinaryTreeImplTest" />
-      <option name="METHOD_NAME" value="testCreate" />
+      <option name="METHOD_NAME" value="testBinarySearhWhenValueExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TraversalTest.testBinarySearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BinaryTreeImplTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +127,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tree.binary" />
-      <option name="MAIN_CLASS_NAME" value="Tree.binary.TraversalTest" />
-      <option name="METHOD_NAME" value="testBinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="Tree.binary.BinaryTreeImplTest" />
+      <option name="METHOD_NAME" value="testDelete(java.lang.String,int,java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NestParenTest.nestParen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructure_in_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="recursion" />
+      <option name="MAIN_CLASS_NAME" value="recursion.NestParenTest" />
+      <option name="METHOD_NAME" value="nestParen(java.lang.String,boolean)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BinarySearchWithArray" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BinaryTreeImplTest.deleteNode" />
-        <item itemvalue="JUnit.BinaryTreeImplTest.testCreate" />
-        <item itemvalue="JUnit.TraversalTest.testBinarySearch" />
+        <item itemvalue="JUnit.NestParenTest.nestParen" />
+        <item itemvalue="JUnit.BinaryTreeImplTest.testDelete" />
+        <item itemvalue="JUnit.BinaryTreeImplTest.testBinarySearhWhenValueDoesNotExists" />
+        <item itemvalue="JUnit.BinaryTreeImplTest.testBinarySearhWhenValueExists" />
+        <item itemvalue="Application.LinkedList.circular.doubly.Main" />
       </list>
     </recent_temporary>
   </component>

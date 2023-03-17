@@ -46,11 +46,11 @@ public class BinarySearchTreeImpl {
         return node;
     }
 
-    public int binarySearch(int value){
-        return _search(root, value);
+    public int binarySearchRecursion(int value){
+        return _searchRecursion(root, value);
     }
 
-    private int _search(searchNode node, int value){
+    private int _searchRecursion(searchNode node, int value){
         /**
          * get middle of  tree (start from root)
          * if root is equal to value, then return value
@@ -66,13 +66,33 @@ public class BinarySearchTreeImpl {
         }
 
         if(value < node.data){
-            return _search(node.left, value);
+            return _searchRecursion(node.left, value);
         }
 
-         return _search(node.right, value);
+         return _searchRecursion(node.right, value);
+    }
+
+    public int binarySearchIteration(int value){
+        searchNode current = root;
+        while(current != null){
+            if(current.data == value){
+                return 1;
+            }
+            if(value < current.data){
+                current = current.left;
+            }
+            current = current.right;
+        }
+        return -1;
     }
 
     public void delete(int value){
+      int result = _searchRecursion(root,value);
+      if(result == 1){
+          _delete(root, value);
+      }
+    }
+    private void _delete(searchNode node, int value){
         /**
          *         4
          *       /  \
@@ -84,8 +104,8 @@ public class BinarySearchTreeImpl {
         if(root == null){
             return;
         }
-        searchNode current = root;
-        searchNode previous  = root;
+        searchNode current = node;
+        searchNode previous  = node;
 
         while(current != null && current.data != value){
             previous = current;
@@ -101,24 +121,33 @@ public class BinarySearchTreeImpl {
         }
 
         if(current.left == null && current.right == null){
-            if(previous.left.data == current.data){
+            if(previous.data == current.data){
                 previous.left = null;
             } else{
                 previous.right = null;
             }
         } else if(current.left == null){
-            current = current.right;
-        } else if(current.right == null){
-            current = current.left;
+            if(current.data > previous.data){
+                previous.right = current.right;
+            } else{
+                previous.left = current.right;
+            }
+        }
+        else if(current.right == null){
+            if(current.data > previous.data){
+                previous = previous.left;
+            }
         } else{
             searchNode minNode = findMinValue(current.right);
-            delete(minNode.data);
+            _delete(previous, minNode.data);
             current.data = minNode.data;
         }
     }
 
     private searchNode findMinValue(searchNode node){
-
+        while(node.left != null){
+            node = node.left;
+        }
         return node;
     }
 
