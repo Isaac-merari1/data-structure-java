@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2208265-d822-4727-b9ec-68939f0c4302" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/NestParen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/NestParenTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/recursion/recursionExamplesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/graphs/GraphImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/circular/doubly/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Tree/binary/BinarySearchTreeImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/BinaryTreeImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tree/binary/TraversalTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -72,13 +66,13 @@
       <recent name="singly" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NestParenTest.nestParen">
-    <configuration name="LinkedList.circular.doubly.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkedList.circular.doubly.Main" />
+  <component name="RunManager" selected="Application.GraphImpl">
+    <configuration name="GraphImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graphs.GraphImpl" />
       <module name="DataStructure_in_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LinkedList.circular.doubly.*" />
+          <option name="PATTERN" value="graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GraphImpl" />
         <item itemvalue="JUnit.NestParenTest.nestParen" />
         <item itemvalue="JUnit.BinaryTreeImplTest.testDelete" />
         <item itemvalue="JUnit.BinaryTreeImplTest.testBinarySearhWhenValueDoesNotExists" />
         <item itemvalue="JUnit.BinaryTreeImplTest.testBinarySearhWhenValueExists" />
-        <item itemvalue="Application.LinkedList.circular.doubly.Main" />
       </list>
     </recent_temporary>
   </component>
