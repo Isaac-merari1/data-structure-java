@@ -18,16 +18,33 @@ public class GraphImpl {
     private final Map<Integer , LinkedList<Integer>> adjacentMatrix;
     private int vertices;
     private int edges;
-    private final boolean isDirected;
+    private boolean isDirected;
     public GraphImpl(){
         this.isDirected = false;
         this.adjacentMatrix = new HashMap<>();
     }
+
+    public boolean isDirected() {
+        return isDirected;
+    }
+
+    public void setDirected(boolean directed) {
+        isDirected = directed;
+    }
+
     public int getVertices() {
         return adjacentMatrix.size();
     }
     public int getEdges() {
         return edges;
+    }
+
+    public int degree(int vertex){
+        LinkedList<Integer> value = adjacentMatrix.get(vertex);
+        if(value == null){
+            return -1;
+        }
+        return value.size();
     }
     public void addEdge(int source, int destination){
         adjacentMatrix.putIfAbsent(source, new LinkedList<>());
@@ -79,9 +96,9 @@ public class GraphImpl {
         graphImpl.addEdge(0, 3);
         graphImpl.addEdge(1, 3);
         graphImpl.addEdge(2, 3);
-        System.out.println(graphImpl);
+//        System.out.println(graphImpl);
 
-        System.out.println("example 2");
+//        System.out.println("example 2");
         GraphImpl graphImpl2 =  new GraphImpl();
 
         graphImpl2.addEdge(0, 1);
@@ -92,6 +109,28 @@ public class GraphImpl {
         graphImpl2.addEdge(2, 3);
         graphImpl2.addEdge(3, 4);
         System.out.println(graphImpl2);
+
+//        System.out.println("\tThis text is one tab in.\r\n");
+
+        /**
+         * example
+         * 0: [2]
+         * 1: [0 ]
+         * 2: [3]
+         * 3: [0, 1]
+         */
+
+        System.out.println("example with directional graph");
+        GraphImpl bidirectionalGraph =  new GraphImpl();
+        bidirectionalGraph.setDirected(true);
+
+        bidirectionalGraph.addEdge(0, 2);
+        bidirectionalGraph.addEdge(1, 0);
+        bidirectionalGraph.addEdge(2, 3);
+        bidirectionalGraph.addEdge(3, 0);
+        bidirectionalGraph.addEdge(3, 1);
+        System.out.println(bidirectionalGraph);
+
 
     }
 }
